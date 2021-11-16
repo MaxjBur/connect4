@@ -20,7 +20,7 @@ public class Main {
 
         for (int i = 5; i >= 0; i--) {
             if (gameBoard[i][rowChoice] == 0) {
-                gameBoard[i][rowChoice] = 2;
+                gameBoard[i-1][rowChoice] = 2;
                 break;
             }
         }
